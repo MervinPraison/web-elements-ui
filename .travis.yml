@@ -23,5 +23,3 @@ stages:
   - name: deploy
     # require the type to be push to master
     if: type = push AND branch = master
-
-
